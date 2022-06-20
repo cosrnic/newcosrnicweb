@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+    @apply bg-[url("img/nobg-catien_blue_effects.png")] bg-auto bg-no-repeat bg-left bg-top
+} */
