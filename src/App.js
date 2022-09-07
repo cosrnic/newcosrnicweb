@@ -17,11 +17,11 @@ function App() {
         <BrowserRouter>
           <SideBar />
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/about" element={<About />} />
-            <Route exact path="/projects" element={<Projects />} />
-            <Route exact path="/credits" element={<Credits />} />
-            <Route exact path="/discord" element={<Discord />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/credits" element={<Credits />} />
+            <Route path="/discord" element={<Discord />} />
           </Routes>
         </BrowserRouter>
 
